@@ -31,7 +31,6 @@
 
       // Create an observer instance linked to the callback function
       const observer = new MutationObserver(() => {
-        debugger;
         text.textContent = `Words: ${countWords(wcParent)}`;
       });
 
